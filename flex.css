@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+   
+}
+.header__left{
+    display: flex;
+    flex-direction: row;
+    font-family:  Arial, Tahoma, sans-serif;
+}
+
+.list{
+    display:flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+}
+.list_item{
+    position: absolute;
+
+}
+.clleft{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color:black;
+    justify-content: center;
+    align-items: center
+   
+}
+img{
+    width: 240px;
+    height: 135px;
+    border-radius: 15px;
+   
+}
+img:hover{
+    opacity: 50%;
+}
+
+.header img{
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+}
+li{
+    list-style: none;
+}
+.clleft {
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #fff;
+    border-color: #fff;
+    opacity: 100%;
+    position: absolute;
+    color: black;
+    
+}
+
+h3 {
+    font-family:  system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
